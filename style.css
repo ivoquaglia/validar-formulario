@@ -1,0 +1,60 @@
+body{
+  background-color: #1c798a;
+  display: flex;
+  justify-content: center;
+}
+
+#formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #1c748a;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.1)
+}
+
+.form-group {
+    width: 250px ;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-self: center;
+  }
+  
+  label {
+    display: flex;
+    margin-bottom: 5px;
+    align-self: left;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 15px 30px;
+    background-color: #3953c5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  button:hover{
+    background-color: #396ac5;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
